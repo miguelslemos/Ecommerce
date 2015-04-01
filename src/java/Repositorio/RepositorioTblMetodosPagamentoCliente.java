@@ -47,7 +47,7 @@ public class RepositorioTblMetodosPagamentoCliente {
         trans.begin();
         
        session.delete(c);
-        system.out.println("aa");
+       
        
        trans.commit();
        session.close();

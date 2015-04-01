@@ -26,12 +26,10 @@ public class ControladorCliente {
        //falta verificar se email ja é existente
         if(c.getClienteEmail()!="" && c.getClienteLogin()!="" && c.getClienteSenha()!=""){
          
-            throw new Exeception("Parâmetros inválidos");
+            
             
         }
-        else{
-            this.repCliente.save(c)
-        }
+       
     }
     
 }
