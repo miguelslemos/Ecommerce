@@ -9,7 +9,7 @@ package Exception;
  *
  * @author MiguelLemos
  */
-public class CamposVaziosException extends Exception{
+public class ProdutoNaoEcontradoException extends Exception {
     private final String message = "Preencha todos os campos obrigatorios!";
  @Override   
  public String getMessage(){
