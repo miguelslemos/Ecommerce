@@ -59,7 +59,7 @@ public class RepositorioTblCliente {
         SQLQuery query = session.createSQLQuery("SELECT {tbl_cliente.*}"+
                 "FROM tbl_cliente {tbl_cliente} WHERE cliente_ultimonome= '"
                 + c.getClientePrimeironome() 
-                + "WHERE cliente_segundonome = '"
+                + " WHERE cliente_segundonome = '"
                 +c.getClienteUltimonome()+ "'");
    query.addEntity("tbl_cliente",TblCliente.class);
         clientes = query.list();
