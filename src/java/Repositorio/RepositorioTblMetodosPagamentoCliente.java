@@ -41,7 +41,7 @@ public class RepositorioTblMetodosPagamentoCliente {
         trans.commit();
         session.close();
     }
-    public void deleteMetodoPagamentoCliente(TblMetodosPagamentoCliente tblteste){
+    public void deleteMetodoPagamentoCliente(TblMetodosPagamentoCliente c){
         Session session = factory.getCurrentSession();
         Transaction trans = session.beginTransaction();
         trans.begin();
